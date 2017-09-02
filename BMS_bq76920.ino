@@ -26,7 +26,7 @@ void setup()
   BMS.setShortCircuitProtection(22000, 200);  // delay in us
   BMS.setOvercurrentChargeProtection(20000, 200);  // delay in ms
   BMS.setOvercurrentDischargeProtection(20000, 320); // delay in ms
-  BMS.setCellUndervoltageProtection(2900, 2); // delay in s
+  BMS.setCellUndervoltageProtection(2800, 2); // delay in s
   BMS.setCellOvervoltageProtection(4250, 2);  // delay in s
 
   BMS.setBalancingThresholds(0, 3650, 20);  // minIdleTime_min, minCellV_mV, maxVoltageDiff_mV
